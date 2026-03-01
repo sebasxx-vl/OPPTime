@@ -1,11 +1,13 @@
 ﻿namespace OPPTimeBack
 {   public class Time
     {
+        // Fields
         private int _hour;
         private int _millisecond;
         private int _minute;
         private int _second;
 
+        // Constructors
         public Time()
         {
             _hour = 0;
@@ -46,6 +48,7 @@
             Millisecond = millisecond;
         }
 
+        // Properties
         public int Hour
         {
             get => _hour;
@@ -70,6 +73,7 @@
             set => _millisecond = ValidateMillisecond(value);
         }
 
+        // Methods
         public override string ToString()
         {
 
