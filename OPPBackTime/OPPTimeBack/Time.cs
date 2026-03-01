@@ -1,6 +1,5 @@
 ﻿namespace OPPTimeBack
-{
-    public class Time
+{   public class Time
     {
         private int _hour;
         private int _millisecond;
@@ -119,7 +118,7 @@
         private static int ValidateHour(int hour)
         {
             if (hour < 0 || hour > 23)
-                throw new ArgumentOutOfRangeException(nameof(hour), $"The hour:{hour}, is not valid");
+                throw new ArgumentOutOfRangeException(nameof(hour), $"The hour: {hour}, is not valid");
             return hour;
         }
 
