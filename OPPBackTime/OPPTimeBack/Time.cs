@@ -73,7 +73,7 @@
             set => _millisecond = ValidateMillisecond(value);
         }
 
-        // Methods
+        //Methods
         public override string ToString()
         {
 
